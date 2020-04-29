@@ -83,7 +83,7 @@ nav ul li a{
 
 .featured-tea {
     margin: 0 auto;
-    width: 1000px;
+    width: 80%;
 }
 
 .featured-tea img{
@@ -187,5 +187,66 @@ footer p{
         flex-direction: column;
         justify-content: center;
         text-align: center;
+    }
+    .mission{
+        height: 300px;
+        padding-bottom: 15px;
+    }
+    .mission #text{
+        height: 40%;
+        opacity: 0.8;
+    }
+    .locations{
+        height:1650px;
+        width: 95%;
+        background-position: right;
+    }
+    .loc1{
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    .loc2, .loc3{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    .flex-content{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .locations #heading {
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width:950px){
+    .locations{
+        height:1650px;
+        width: 95%;
+        background-position: center;
+    }
+    .loc1{
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    .loc2, .loc3{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    .flex-content{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .locations #heading {
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
